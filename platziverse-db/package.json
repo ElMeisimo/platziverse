@@ -1,0 +1,17 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc-watch --onsuccess \"node ./dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "tsc-watch": "^5.0.3"
+  }
+}
